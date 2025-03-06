@@ -8151,6 +8151,15 @@
         "litellm_provider": "ollama",
         "mode": "chat"
     },
+    "ollama/llama3.2": {
+        "max_tokens": 128000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat"
+    },
     "ollama/llama3:8b": {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
@@ -8168,6 +8177,17 @@
         "output_cost_per_token": 0.0,
         "litellm_provider": "ollama",
         "mode": "chat"
+    },
+    "ollama/llama3.1:70b": {
+        "max_tokens": 128000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat", 
+        "supports_function_calling": true,
+        "supports_tool_choice": true
     },
     "ollama/llama3.1": {
         "max_tokens": 32768,
