@@ -8187,7 +8187,7 @@
         "litellm_provider": "ollama",
         "mode": "chat"
     },
-    "ollama/ldeepseek-r1:70b": {
+    "ollama/deepseek-r1:70b": {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
